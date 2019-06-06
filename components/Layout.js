@@ -16,7 +16,8 @@ Router.onRouteChangeError = () => NProgress.done();
 export default ({ children, title }) => (
     <div className="root">
         <Head>
-            <title>NextPortfolio</title>
+            <link rel="icon" href="../static/javascript-logo.png" type="image" sizes="16x16" />
+            <title>himanshu pandey: javascript enthusiast</title>
         </Head>
         <header>
             <Link href="/"><a>Home</a></Link>
