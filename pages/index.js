@@ -2,7 +2,7 @@ import Layout from '../components/Layout';
 
 const Index = () => (
     <Layout  title="himanshu pandey <code>javascript enthusiast </code>">
-        <p style={{color: "gray"}}>A FULL STACK DEVELOPER, UI ENGINEER, PERFORMANCE OPTIMIZER, WITH AN OBJECTIVE OF MAKING WEB MORE USABLE OVER TIME.</p>
+        <p style={{color: "gray"}}>A FULL STACK DEVELOPER, UI ENGINEER, PERFORMANCE OPTIMIZER.</p>
         <div style={{margin: "2px"}}></div>
         <img src={'./static/reduce.png'} alt="js"  height="280px"/>
         <div style={{margin: "5px"}}></div>
