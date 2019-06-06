@@ -12043,26 +12043,66 @@ var _jsxFileName = "/home/himanshupandey/Documents/NEXTJS/next-basics/pages/inde
 
 var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Home",
+    title: "himanshu pandey <code>javascript enthusiast </code>",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      color: "gray"
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, "Welcome to the home page"));
+  }, "A FULL STACK DEVELOPER, UI ENGINEER, PERFORMANCE OPTIMIZER, WITH AN OBJECTIVE OF MAKING WEB MORE USABLE OVER TIME."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      margin: "2px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: './static/reduce.png',
+    alt: "js",
+    height: "280px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      margin: "5px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: './static/javascript-logo.png',
+    alt: "js",
+    height: "50px",
+    width: "50px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 3:
+/***/ 0:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fhimanshupandey%2FDocuments%2FNEXTJS%2Fnext-basics%2Fpages%2Findex.js ***!
   \***********************************************************************************************************************************************/
@@ -12085,5 +12125,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
