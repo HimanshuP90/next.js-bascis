@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/blog.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/post.js"],{
 
 /***/ "./components/Layout.js":
 /*!******************************!*\
@@ -6336,21 +6336,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog&absolutePagePath=%2Fhome%2Fhimanshupandey%2FDocuments%2FNEXTJS%2Fnext-basics%2Fpages%2Fblog.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpost&absolutePagePath=%2Fhome%2Fhimanshupandey%2FDocuments%2FNEXTJS%2Fnext-basics%2Fpages%2Fpost.js!./":
 /*!**********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog&absolutePagePath=%2Fhome%2Fhimanshupandey%2FDocuments%2FNEXTJS%2Fnext-basics%2Fpages%2Fblog.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpost&absolutePagePath=%2Fhome%2Fhimanshupandey%2FDocuments%2FNEXTJS%2Fnext-basics%2Fpages%2Fpost.js ***!
   \**********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/blog", function() {
-      var page = __webpack_require__(/*! ./pages/blog.js */ "./pages/blog.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/post", function() {
+      var page = __webpack_require__(/*! ./pages/post.js */ "./pages/post.js")
       if(true) {
-        module.hot.accept(/*! ./pages/blog.js */ "./pages/blog.js", function() {
-          if(!next.router.components["/blog"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/blog.js */ "./pages/blog.js")
-          next.router.update("/blog", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/post.js */ "./pages/post.js", function() {
+          if(!next.router.components["/post"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/post.js */ "./pages/post.js")
+          next.router.update("/post", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -12025,9 +12025,9 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/blog.js":
+/***/ "./pages/post.js":
 /*!***********************!*\
-  !*** ./pages/blog.js ***!
+  !*** ./pages/post.js ***!
   \***********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -12037,90 +12037,106 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/home/himanshupandey/Documents/NEXTJS/next-basics/pages/blog.js";
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/home/himanshupandey/Documents/NEXTJS/next-basics/pages/post.js";
 
 
 
 
-var PostLink = function PostLink(_ref) {
-  var slug = _ref.slug,
-      title = _ref.title;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+var Post = function Post(_ref) {
+  var router = _ref.router;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: router.query.title,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    as: "/".concat(slug),
-    href: "/post?title=".concat(title),
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: "80vw"
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, title)));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "My Blog",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "1) Initialization:"), " setup props and state"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "2) Mounting:"), " componentWillMount (Immediately before inital rendering) render ( return one of the following types: React elements, String and numbers, Portals, Booleans, null, ) componentDidMount (Immediately after inital rendering)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
-    slug: "react-post",
-    title: "React Post",
+  }, "3) Updation: "), " props componentWillReceiveProps (When component receives new props) shouldComponentUpdate (Before rendering, after receiving new props or state) componentWillupdate (Before rendering, after receiving new props or state) render componentDidUpdate (After component's updates are flushed to DOM) state shouldComponentUpdate( is shouldComponentUpdate return false then render() will not be invoked) componentWillupdate render componentDidUpdate"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 22
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
-    slug: "angular-post",
-    title: "Angular Post",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 22
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
-    slug: "vue-post",
-    title: "Vue Post",
+  }, "4) Unmounting: "), " componentWillUnmount (Immediately before removing component from DOM)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 26
     },
     __self: this
-  })));
-});
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "5): "), " componentDidCatch(error, info) ")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter"])(Post));
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!**************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fblog&absolutePagePath=%2Fhome%2Fhimanshupandey%2FDocuments%2FNEXTJS%2Fnext-basics%2Fpages%2Fblog.js ***!
+  !*** multi next-client-pages-loader?page=%2Fpost&absolutePagePath=%2Fhome%2Fhimanshupandey%2FDocuments%2FNEXTJS%2Fnext-basics%2Fpages%2Fpost.js ***!
   \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fblog&absolutePagePath=%2Fhome%2Fhimanshupandey%2FDocuments%2FNEXTJS%2Fnext-basics%2Fpages%2Fblog.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fblog&absolutePagePath=%2Fhome%2Fhimanshupandey%2FDocuments%2FNEXTJS%2Fnext-basics%2Fpages%2Fblog.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpost&absolutePagePath=%2Fhome%2Fhimanshupandey%2FDocuments%2FNEXTJS%2Fnext-basics%2Fpages%2Fpost.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpost&absolutePagePath=%2Fhome%2Fhimanshupandey%2FDocuments%2FNEXTJS%2Fnext-basics%2Fpages%2Fpost.js!./");
 
 
 /***/ }),
@@ -12136,5 +12152,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=blog.js.map
+},[[1,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=post.js.map
