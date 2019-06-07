@@ -12,9 +12,9 @@ const PostLink = ({ slug, title }) => (
 export default () => (
     <Layout title="My Blog">
         <ul>
-            <PostLink slug="react-post" title="React Post" />
-            <PostLink slug="angular-post" title="Angular Post" />
-            <PostLink slug="vue-post" title="Vue Post" />
+            <PostLink slug="react-post" title="React Redux NodeJS" />
+            <PostLink slug="datastructure-post" title="Data Structures and Algorithms" />
+            <PostLink slug="interview-post" title="Interview Prepration tips  " />
         </ul>
     </Layout>
 );

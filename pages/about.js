@@ -21,9 +21,27 @@ export default class About extends Component {
         }
         return(
 
-            <Layout title="About">
+            <Layout title="About Me">
+                <img src={user.avatar_url} alt="Me" height="180px" />
                 <p>{user.name}</p>
-                <img src={user.avatar_url} alt="Me" height="150px" />
+                <p>Hi I’m Himanshu, a full stack developer at Paytm.com (Head Office).</p>
+                <p>Previously I worked at numerous early-stage startups, most notably product based, and graduated from from <a href="http://www.mnnit.ac.in/">NIT-Allahabad</a> with computer science degree</p>
+                <style jsx>{`
+                    img {
+                        box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2);
+                        overflow: hidden;
+                        border-radius: 50%;
+                        border-width: 3px;
+                        border-style: solid;
+                        border-color: rgb(255, 255, 255);
+                        border-image: initial;
+                    }
+                    @media only screen and (max-width: 768px){
+                        img {
+                            width: 120px;
+                            height: 120px;
+                        }
+                `}</style>
             </Layout>
         )
     }

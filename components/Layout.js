@@ -5,7 +5,6 @@ import NProgress from 'nprogress';
 
 
 Router.onRouteChangeStart = url => {
-    console.log(url);
     NProgress.start();
 }
 
@@ -53,6 +52,7 @@ export default ({ children, title }) => (
             header a:hover {
                 font-weight: bold;
                 color: black;
+                text-decoration: underline;
             }
 
             footer {
@@ -60,10 +60,23 @@ export default ({ children, title }) => (
             }
         `}</style>
         <style global jsx>{`
+            * {
+                box-sizing: border-box;
+            }
+            a{
+                text-decoration: none;
+            }
+            p{
+                text-align: justify;
+            }
             body {
                 margin: 0;
                 font-size: 110%;
-                // background: #f0f0f0;
+            }
+            @media only screen and (max-width: 768px){
+                h1,p {
+                    text-align: center;
+                }
             }
         `}</style>
     </div>
