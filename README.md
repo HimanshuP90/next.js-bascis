@@ -1,12 +1,12 @@
 # Portfolio
 
-![homepage](./static/homepage2.png)
+![homepage](./static/homepage.png)
 
-# Steps to run
+### Steps to run
 
 > npm run dev
 
-# Step to deploy
+### Step to deploy
 
 > npm run build
 > npm run export
