@@ -15,6 +15,7 @@ export default () => (
             <PostLink slug="react-post" title="React Redux NodeJS" />
             <PostLink slug="datastructure-post" title="Data Structures and Algorithms" />
             <PostLink slug="interview-post" title="Interview Prepration tips  " />
+            <PostLink slug="docker-k8" title="Docker and Kubernetes " />
         </ul>
     </Layout>
 );
