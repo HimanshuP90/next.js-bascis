@@ -42,8 +42,12 @@ const Post = ({ router }) => (
         <li>Binary Search Tree</li>
       </ul>
     </div>
-
     }
+    { (router.query.title) === 'Docker and Kubernetes' && <div style={{ width: "80vw"}}>
+      <p>Docker is a set of platform as a service products that uses OS-level virtualization to deliver software in packages called containers.</p>
+      <p>Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels</p>
+      <a href="https://github.com/HimanshuP90/docker-react"> Docker React setup with CI and CD</a>
+    </div>}
   </Layout>
 );
 
