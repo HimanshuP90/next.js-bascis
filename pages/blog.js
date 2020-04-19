@@ -16,6 +16,7 @@ export default () => (
             <PostLink slug="datastructure-post" title="Data Structures and Algorithms" />
             <PostLink slug="interview-post" title="Interview Prepration tips  " />
             <PostLink slug="docker-k8" title="Docker and Kubernetes " />
+            <PostLink slug="npm" title="Node Package Manager" />
         </ul>
     </Layout>
 );

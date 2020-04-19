@@ -70,6 +70,10 @@ export default ({ children, title }) => (
       footer {
         padding: 1em;
       }
+      table td, table th{
+        padding: 6px 13px;
+        border: 1px solid #ddd;
+      }
     `}</style>
     <style global jsx>{`
       * {
