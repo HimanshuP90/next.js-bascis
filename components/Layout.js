@@ -11,7 +11,7 @@ Router.onRouteChangeComplete = () => NProgress.done();
 
 Router.onRouteChangeError = () => NProgress.done();
 
-export default ({ children, title }) => (
+export default ({ children, title, subdescrip }) => (
   <div className="root">
     <Head>
       <link
@@ -37,8 +37,15 @@ export default ({ children, title }) => (
       </Link>
     </header>
     <h1>{title}</h1>
+    <p>{subdescrip}</p>
     {children}
-    <footer>&copy; {new Date().getFullYear()}</footer>
+    <div style={{width: '70%', color: 'gray'}}>
+      <footer style={{minHeight: '50px',width: '70%',
+    display: 'flex', margin: '0 auto',flexDirection: 'column-reverse',
+    padding: '30px 0', justifyContent: 'center',alignItems: 'center'
+    }}>Copyright &copy; {new Date().getFullYear()} All rights reserved </footer>
+    </div>
+   
     <style jsx>{`
       .root {
         font-family: sans-serif;
